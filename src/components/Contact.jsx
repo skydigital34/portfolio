@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUpRight, Mail, MapPin } from 'lucide-react';
+import { ArrowUpRight, Mail, MapPin, Phone } from 'lucide-react';
 import ContactPlanetSvg from './ContactPlanetSvg';
 
 export default function Contact() {
@@ -20,7 +20,7 @@ export default function Contact() {
         </div>
 
         <div className="contact-right">
-          <a href="mailto:skillstar66@gmail.com" className="btn-primary" style={{ padding: '16px 36px', fontSize: '15px' }}>
+          <a href="mailto:sivakishna34@gmail.com" className="btn-primary" style={{ padding: '16px 36px', fontSize: '15px' }}>
             LET'S CONNECT <ArrowUpRight size={18} />
           </a>
         </div>
@@ -30,11 +30,15 @@ export default function Contact() {
       <div className="contact-info-footer">
         <div className="contact-info-item">
           <Mail size={16} />
-          <span>SKILLSTAR66@GMAIL.COM</span>
+          <span>SIVAKISHNA34@GMAIL.COM</span>
+        </div>
+        <div className="contact-info-item">
+          <Phone size={16} />
+          <span>+91 8637415015</span>
         </div>
         <div className="contact-info-item">
           <MapPin size={16} />
-          <span>2ND FLOOR, B3, RAJU NAGAR, ERU COMPANY, KUPPAKONAM PUDUR, COIMBATORE – 641043, TAMIL NADU, INDIA.</span>
+          <span>NO.25/1, RANGA LAYOUT 2, GANAPATHY POST, NALLAMPALAYAM, COIMBATORE, TAMIL NADU 641027</span>
         </div>
       </div>
     </section>

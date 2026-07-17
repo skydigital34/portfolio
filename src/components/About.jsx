@@ -33,7 +33,7 @@ export default function About() {
             FTC Digital Solution is a premium digital agency specialized in translating complex workflows into simple, engaging, and state-of-the-art interactive web applications. By fusing robust engineering principles with high-end design aesthetics, we help modern brands establish a commanding digital presence.
           </p>
           <p style={{ color: 'var(--text-secondary)', fontSize: '15px', lineHeight: '1.8' }}>
-            Over the past 1+ years, our collective team has collaborated with tech innovators, corporate partners, and creative agencies to ship robust products using front-end technologies like React, Next.js, and high-performance server systems.
+            Over the past 3+ years, our collective team has collaborated with tech innovators, corporate partners, and creative agencies to ship robust products using front-end technologies like React, Next.js, and high-performance server systems.
           </p>
         </div>
 
@@ -41,9 +41,10 @@ export default function About() {
           <h3 style={{ fontSize: '18px', fontWeight: '700', marginBottom: '15px', color: 'var(--text-primary)' }}>Agency Details</h3>
           <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '12px', fontSize: '14px', color: 'var(--text-secondary)' }}>
             <li><strong style={{ color: 'var(--text-primary)' }}>Services:</strong> Web Dev, SEO, SMM & Content Writing</li>
-            <li><strong style={{ color: 'var(--text-primary)' }}>Track Record:</strong> 1+ Years of Excellence</li>
-            <li><strong style={{ color: 'var(--text-primary)' }}>Email:</strong> skillstar66@gmail.com</li>
-            <li><strong style={{ color: 'var(--text-primary)' }}>Location:</strong> 2nd Floor, B3, Raju Nagar, Eru Company, Kuppakonam Pudur, Coimbatore – 641043, Tamil Nadu, India.</li>
+            <li><strong style={{ color: 'var(--text-primary)' }}>Track Record:</strong> 3+ Years of Excellence</li>
+            <li><strong style={{ color: 'var(--text-primary)' }}>Email:</strong> sivakishna34@gmail.com</li>
+            <li><strong style={{ color: 'var(--text-primary)' }}>Phone:</strong> +91 8637415015</li>
+            <li><strong style={{ color: 'var(--text-primary)' }}>Location:</strong> No.25/1, Ranga layout 2, Ganapathy Post, Nallampalayam, Coimbatore, Tamil Nadu 641027</li>
             <li><strong style={{ color: 'var(--text-primary)' }}>Availability:</strong> Open for Projects</li>
           </ul>
         </div>

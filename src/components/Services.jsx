@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Monitor, TrendingUp, Rocket, Search, PenTool, Share2, BarChart3, Activity, ArrowRight, X } from 'lucide-react';
+import { Monitor, TrendingUp, Rocket, Search, PenTool, Share2, MapPin, Activity, ArrowRight, X } from 'lucide-react';
 
 const Youtube = ({ size = 24, ...props }) => (
   <svg
@@ -115,15 +115,15 @@ export default function Services() {
     },
     {
       num: '08',
-      title: 'GMP (GOOGLE MARKETING PLATFORM)',
-      desc: 'Deploying analytics, Tag Manager, and targeted ads under a unified marketing console.',
-      icon: BarChart3,
-      longDesc: 'Synthesize your marketing tools under a single dashboard console to track customer journeys, conversion events, and custom script tags.',
+      title: 'GMB (GOOGLE MY BUSINESS)',
+      desc: 'Optimizing local business listings, Google Maps visibility, and customer reviews.',
+      icon: MapPin,
+      longDesc: 'Claim, verify, and optimize your Google Business Profile (GMB) presence to appear in local Map Pack queries, rank higher on Google Maps, and manage customer review acquisition.',
       features: [
-        'Google Analytics 4 (GA4) custom event tracking',
-        'Google Tag Manager (GTM) container & server-side tagging',
-        'Dynamic conversion APIs & Google Ads integrations',
-        'Looker Studio business reporting dashboards'
+        'Google Map Pack ranking & visibility optimization',
+        'Local NAP (Name, Address, Phone) consistency audit',
+        'Customer reviews acquisition & response setup',
+        'Local business post updates, products cataloging & messaging'
       ]
     },
     {
