@@ -21,14 +21,14 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="section-container" style={{ borderTop: '1px solid rgba(255, 255, 255, 0.03)', paddingTop: '60px' }}>
+    <section id="about" className="section-container about-section">
       <p className="section-label">WHO WE ARE</p>
       <h2 className="section-title">
         ABOUT <span className="gradient-text-accent">US</span>
       </h2>
 
-      <div style={{ display: 'flex', gap: '50px', alignItems: 'center', marginBottom: '40px' }}>
-        <div style={{ flex: 1.2 }}>
+      <div className="about-content">
+        <div className="about-text">
           <p style={{ color: 'var(--text-secondary)', fontSize: '15px', lineHeight: '1.8', marginBottom: '20px' }}>
             FTC Digital Solution is a premium digital agency specialized in translating complex workflows into simple, engaging, and state-of-the-art interactive web applications. By fusing robust engineering principles with high-end design aesthetics, we help modern brands establish a commanding digital presence.
           </p>
@@ -37,7 +37,7 @@ export default function About() {
           </p>
         </div>
 
-        <div style={{ flex: 0.8, backgroundColor: 'var(--card-bg)', border: '1px solid var(--card-border)', borderRadius: '12px', padding: '25px' }}>
+        <div className="about-details">
           <h3 style={{ fontSize: '18px', fontWeight: '700', marginBottom: '15px', color: 'var(--text-primary)' }}>Agency Details</h3>
           <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '12px', fontSize: '14px', color: 'var(--text-secondary)' }}>
             <li><strong style={{ color: 'var(--text-primary)' }}>Services:</strong> Web Dev, SEO, SMM & Content Writing</li>

@@ -46,30 +46,14 @@ export default function Hero() {
       id="home" 
       className="hero-section"
       style={{
-        backgroundImage: `linear-gradient(to right, #040207 35%, rgba(4, 2, 7, 0.85) 55%, rgba(4, 2, 7, 0.25) 90%), url(${heroBg})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'right center',
-        backgroundRepeat: 'no-repeat',
-        borderRadius: '16px',
-        padding: '50px 60px',
-        border: '1px solid rgba(127, 0, 255, 0.15)',
-        boxShadow: '0 15px 35px rgba(0, 0, 0, 0.6), inset 0 0 50px rgba(0, 0, 0, 0.8)',
-        position: 'relative'
+        backgroundImage: `linear-gradient(var(--hero-gradient-dir, to right), #040207 var(--hero-gradient-stop1, 35%), rgba(4, 2, 7, 0.85) var(--hero-gradient-stop2, 55%), rgba(4, 2, 7, 0.25) var(--hero-gradient-stop3, 90%)), url(${heroBg})`
       }}
     >
       {/* Top right absolute positioned controls wrapper inside the card! */}
-      <div style={{
-        position: 'absolute',
-        top: '30px',
-        right: '40px',
-        display: 'flex',
-        alignItems: 'center',
-        gap: '15px',
-        zIndex: 10
-      }}>
+      <div className="hero-controls">
         <button 
           onClick={scrollToContact}
-          className="btn-secondary" 
+          className="btn-secondary hero-connect-btn" 
           style={{ padding: '8px 18px', borderRadius: '20px', fontSize: '12px' }}
         >
           LET'S CONNECT <ArrowUpRight size={13} style={{ marginLeft: '4px', display: 'inline' }} />
