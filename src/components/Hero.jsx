@@ -73,7 +73,7 @@ export default function Hero() {
 
         <p className="hero-subtitle" style={{ marginTop: '10px' }}>HELLO, WE ARE</p>
         <h1 className="hero-title" style={{ fontSize: '50px' }}>
-          FTC <span className="gradient-text-purple">DIGITAL</span>
+          FTC <span className="gradient-text-purple">DIGITAL SOLUTIONS</span>
         </h1>
         
         <p className="hero-slogan">
