@@ -203,7 +203,6 @@ export default function Skills() {
         
         {/* Left column info */}
         <div className="skills-left">
-          <p className="section-label">MY EXPERTISE</p>
           <h2 className="section-title">
             SKILLS & <span className="gradient-text-purple">TOOLS</span>
           </h2>
